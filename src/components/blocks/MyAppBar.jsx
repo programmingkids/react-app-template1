@@ -3,14 +3,14 @@ import { Link, useNavigate } from 'react-router-dom';
 import { styled, alpha } from '@mui/material/styles';
 import { Box, Stack, Typography, Paper } from '@mui/material'
 import { AppBar, Toolbar, InputBase, IconButton } from '@mui/material';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import HomeIcon from '@mui/icons-material/Home';
 
 export const MyAppBar = () => {
   return (
     <AppBar position="sticky">
       <Toolbar>
         <IconButton component={Link} to={'/'} color="inherit">
-          <MonetizationOnIcon size="large" />
+          <HomeIcon size="large" />
         </IconButton>
         <Typography
           variant="h6"

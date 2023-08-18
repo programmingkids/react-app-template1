@@ -4,8 +4,6 @@ import { styled } from '@mui/material/styles';
 import { Box, Stack, Button, Paper, Container, Typography, } from '@mui/material';
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import InfoIcon from '@mui/icons-material/Info';
 
 const BottomStaticPaper = styled(Paper)(({theme}) => ({
